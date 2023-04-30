@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Motos Seleccionadas</title>
+    <!-- Librerias bootstrap y Toastify -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!--Header-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"
+                ><img src="images/logo jujuymotos.png" alt="LogoMoto" width="120"
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html"
+                      >Catalogo</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="col-md-6 d-flex align-items-center justify-content-end">
+          <a
+            href="carrito.html"
+            title="Ir al Carrito"
+            class="btn btn-info position-relative"
+          >
+            <img src="images/logo jujuymotos.png" alt="Carrito" width="24" />
+            <span
+              id="carrito"
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+              >0</span
+            >
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Main -->
+    <div class="container my-5">
+      <h1 class="text-center">Motos Seleccionadas</h1>
+      <div id="motos" class="row"></div>
+    </div>
+    <!--Footer-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link text-secondary" aria-current="page"
+                >Certificaciones</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary">Financiamientos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary">Marcas</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 d-flex align-items-center justify-content-end">
+          <p>
+            <a href="index.html" title="Ir al Carrito"
+              ><img src="images/logo jujuymotos.png" alt="LogoMoto" width="60"
+            /></a>
+            © JUJUY MOTOS
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/index_carrito.js"></script>
+    <!-- Toastify y Sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+  </body>
+</html>

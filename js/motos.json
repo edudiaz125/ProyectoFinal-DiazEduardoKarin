@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "marca": "Zanella",
+    "tipo": "Enduro/Cross",
+    "motor": "150cc",
+    "color": "Azul",
+    "modelo": "ZT",
+    "precio": 450000,
+    "imagen": "zanellazt.jpg"
+  },
+  {
+    "id": 2,
+    "marca": "Bajaj",
+    "tipo": "Street",
+    "motor": "125cc",
+    "color": "Negra",
+    "modelo": "NS 125",
+    "precio": 624000,
+    "imagen": "bajajns125.jpg"
+  },
+  {
+    "id": 3,
+    "marca": "Zanella",
+    "tipo": "Scooter",
+    "motor": "150cc",
+    "color": "Negra",
+    "modelo": "Exclusive Edizione",
+    "precio": 383000,
+    "imagen": "zanellaexclusive125.jpg"
+  },
+  {
+    "id": 4,
+    "marca": "Bajaj",
+    "tipo": "Tourer",
+    "motor": "400cc",
+    "color": "Negra",
+    "modelo": "Dominar 400",
+    "precio": 925000,
+    "imagen": "bajajdominar400.jpg"
+  },
+  {
+    "id": 5,
+    "marca": "Benelli",
+    "tipo": "Street",
+    "motor": "300cc",
+    "color": "Negra",
+    "modelo": "302s",
+    "precio": 1350000,
+    "imagen": "benelli302s.jpg"
+  },
+  {
+    "id": 6,
+    "marca": "Kymco",
+    "tipo": "Scooter",
+    "motor": "350cc",
+    "color": "Plateada",
+    "modelo": "Downtown 350i ABS",
+    "precio": 2900000,
+    "imagen": "kymcodowntown350i.jpg"
+  },
+  {
+    "id": 7,
+    "marca": "Honda",
+    "tipo": "Enduro/Cross",
+    "motor": "600cc",
+    "color": "Azul y Roja",
+    "modelo": "Xr 600",
+    "precio": 2150000,
+    "imagen": "7honda xr 600.jpg"
+  },
+  {
+    "id": 8,
+    "marca": "Benelli",
+    "tipo": "Street",
+    "motor": "600cc",
+    "color": "Negra",
+    "modelo": "TNT 600i",
+    "precio": 3360000,
+    "imagen": "benelli 600i.jpg"
+  },
+  {
+    "id": 9,
+    "marca": "Bajaj",
+    "tipo": "Street",
+    "motor": "750cc",
+    "color": "Verde",
+    "modelo": "752s",
+    "precio": 2920000,
+    "imagen": "benelli752s.jpg"
+  }
+]
